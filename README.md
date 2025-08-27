@@ -1,12 +1,60 @@
-# React + Vite
+<img width="1920" height="943" alt="image" src="https://github.com/user-attachments/assets/6344c585-8efa-415d-b3c8-5ae960219a94" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+📦 React Product Cards
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple and professional React project that displays product cards dynamically using the map() loop and reusable components.
 
-## Expanding the ESLint configuration
+🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔄 Dynamic product rendering using map()
+
+🧩 Reusable Card component
+
+🎨 Clean and responsive UI with CSS/Tailwind
+
+📱 Mobile-friendly design
+
+⚡ Fast and lightweight project
+
+🛠️ Tech Stack
+
+React.js – UI library
+
+Vite / CRA – Build tool
+
+CSS / Tailwind CSS – Styling
+
+📂 Project Structure
+src/
+│── components/
+│   ├── Card.jsx        # Single product card component
+│   └── CardList.jsx    # Maps products and displays multiple cards
+│── App.jsx             # Main application entry
+│── data.js             # Dummy product data
+│── index.css           # Global styles
+
+🖼️ Demo Preview
+
+Each product card contains:
+
+🖼️ Image
+
+🏷️ Product Name
+
+💲 Price
+
+📝 Description
+
+
+🏆 Learning Goals
+
+Understand React component structure
+
+Practice props passing & reusable components
+
+Learn map() loop for rendering lists dynamically
+
+📄 License
+
+This project is open-source and available under the MIT License
