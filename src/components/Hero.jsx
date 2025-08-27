@@ -59,6 +59,13 @@ const products = [
     price: 2200,
     description: "Compact power bank with fast charging, lightweight body, and reliable safety."
   }
+  ,
+  {
+    id: 11,
+    name: "Computer ",
+    price: 3400,
+    description: "Light weight, heavy machinary Computer with completely AOX system."
+  }
 ];
 
 
