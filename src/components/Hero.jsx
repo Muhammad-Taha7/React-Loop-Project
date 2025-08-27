@@ -74,10 +74,10 @@ export const Hero = ()=>
 {
     return(
         <>
-        <div className="hero-section h-[90vh] w-full bg-black text-white ">
+        <div className="hero-section  w-full bg-black text-white ">
             <div className="text">
                 <h2 className="text-[1.5rem] p-10">Products:</h2>
-                <div className="layout grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-10 px-10">
+                <div className="layout grid pb-10 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-10 px-10">
                     {
                         products.map((number)=>
                         {
